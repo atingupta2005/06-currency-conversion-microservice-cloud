@@ -4,8 +4,7 @@ metadata:
   labels:
     app: currency-conversion
   name: currency-conversion
-  namespace: default
-spec:
+  spec:
   replicas: 2
   minReadySeconds: 45
   selector:
@@ -37,8 +36,7 @@ metadata:
   labels: #PODS
     app: currency-conversion
   name: currency-conversion
-  namespace: default
-spec:
+  spec:
   ports:
   - # nodePort: 30701 
     port: 8100 
